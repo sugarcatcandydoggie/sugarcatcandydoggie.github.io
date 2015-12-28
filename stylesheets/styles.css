@@ -8522,18 +8522,18 @@ body {
 }
 /* line 302, ../sass/styles.sass */
 .main_desc.large {
-  font-size: 18px;
+  font-size: 15px;
 }
 @media screen and (min-width: 480px) {
   /* line 302, ../sass/styles.sass */
   .main_desc.large {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 768px) {
   /* line 302, ../sass/styles.sass */
   .main_desc.large {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 960px) {
