@@ -8248,7 +8248,7 @@ body {
   border-bottom: 1px solid #eeeeee;
   background-color: #FFFFFF;
   font-size: 14px;
-  padding-top: 6px;
+  padding-top: 10px;
   padding-bottom: 8px;
   line-height: 1.4;
   text-align: left;
@@ -8771,14 +8771,14 @@ body {
   padding: 4px 10px;
   width: auto;
   border-radius: 3px;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 @media screen and (min-width: 768px) {
   /* line 447, ../sass/styles.sass */
   .btn.btn_small {
     font-size: 16px;
     padding: 6px 15px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
   }
 }
 
