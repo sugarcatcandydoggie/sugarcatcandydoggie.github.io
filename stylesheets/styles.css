@@ -8768,7 +8768,6 @@ body {
 /* line 447, ../sass/styles.sass */
 .btn.btn_small {
   font-size: 14px;
-  z-index: 9999;
   padding: 4px 10px;
   width: auto;
   border-radius: 3px;
@@ -8783,29 +8782,29 @@ body {
   }
 }
 
-/* line 463, ../sass/styles.sass */
+/* line 462, ../sass/styles.sass */
 .text_btn_wrapper {
   text-align: center;
   margin-bottom: 5px;
 }
 @media screen and (min-width: 768px) {
-  /* line 463, ../sass/styles.sass */
+  /* line 462, ../sass/styles.sass */
   .text_btn_wrapper {
     margin-bottom: 15px;
   }
 }
 
-/* line 468, ../sass/styles.sass */
+/* line 467, ../sass/styles.sass */
 .text_btn {
   font-size: 20px;
   color: #1babb2;
 }
-/* line 471, ../sass/styles.sass */
+/* line 470, ../sass/styles.sass */
 .text_btn:hover {
   color: #2cbcc3;
 }
 
-/* line 474, ../sass/styles.sass */
+/* line 473, ../sass/styles.sass */
 .btn_header_info {
   margin-top: 16px;
   margin-bottom: 8px;
@@ -8814,19 +8813,19 @@ body {
   font-size: 15px;
 }
 @media screen and (min-width: 768px) {
-  /* line 474, ../sass/styles.sass */
+  /* line 473, ../sass/styles.sass */
   .btn_header_info {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 474, ../sass/styles.sass */
+  /* line 473, ../sass/styles.sass */
   .btn_header_info {
     font-size: 22px;
   }
 }
 
-/* line 486, ../sass/styles.sass */
+/* line 485, ../sass/styles.sass */
 .copyright {
   width: 100%;
   font-size: 16px;
@@ -8843,17 +8842,17 @@ body {
   font-family: "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", "Nanum Gothic", "맑은 고딕", "Arial", "돋움", "Dotum", sans-serif;
 }
 @media screen and (min-width: 768px) {
-  /* line 486, ../sass/styles.sass */
+  /* line 485, ../sass/styles.sass */
   .copyright {
     margin: 15px auto 15px;
   }
 }
-/* line 502, ../sass/styles.sass */
+/* line 501, ../sass/styles.sass */
 .copyright a {
   color: #a0a0a0;
 }
 
-/* line 505, ../sass/styles.sass */
+/* line 504, ../sass/styles.sass */
 .seller_info {
   line-height: 1.4;
   max-width: 640px;
@@ -8861,19 +8860,19 @@ body {
   font-size: 12px;
   margin: 20px auto 30px;
 }
-/* line 511, ../sass/styles.sass */
+/* line 510, ../sass/styles.sass */
 .seller_info span {
   display: inline-block;
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-/* line 517, ../sass/styles.sass */
+/* line 516, ../sass/styles.sass */
 .gray {
   color: #aaaaaa !important;
 }
 
-/* line 519, ../sass/styles.sass */
+/* line 518, ../sass/styles.sass */
 .font_light {
   font-weight: 300 !important;
 }
@@ -8914,7 +8913,7 @@ body {
     -webkit-transform: translate(0.5px, -0.5px) rotate(-1deg);
   }
 }
-/* line 547, ../sass/styles.sass */
+/* line 546, ../sass/styles.sass */
 .item_trembling {
   -webkit-animation-name: trembling;
   -webkit-animation-duration: 0.8s;
@@ -8922,34 +8921,34 @@ body {
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
 }
-/* line 553, ../sass/styles.sass */
+/* line 552, ../sass/styles.sass */
 .item_trembling:nth-child(odd) {
   -webkit-animation-direction: alternate;
 }
-/* line 555, ../sass/styles.sass */
+/* line 554, ../sass/styles.sass */
 .item_trembling:nth-child(even) {
   -webkit-animation-direction: reverse;
 }
-/* line 557, ../sass/styles.sass */
+/* line 556, ../sass/styles.sass */
 .item_trembling:nth-child(3n) {
   -webkit-animation-duration: 1s;
   -webkit-animation-direction: alternate-reverse;
 }
-/* line 560, ../sass/styles.sass */
+/* line 559, ../sass/styles.sass */
 .item_trembling:nth-child(5n) {
   -webkit-animation-duration: 0.7s;
   -webkit-animation-direction: reverse;
 }
 
 /* SNS */
-/* line 566, ../sass/styles.sass */
+/* line 565, ../sass/styles.sass */
 .links {
   text-align: center;
   height: auto;
   margin: 0 auto;
   padding: 4px 0;
 }
-/* line 571, ../sass/styles.sass */
+/* line 570, ../sass/styles.sass */
 .links a.link {
   opacity: 1;
   cursor: pointer;
@@ -8966,58 +8965,58 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 586, ../sass/styles.sass */
+/* line 585, ../sass/styles.sass */
 .links a.link:hover {
   opacity: 0.8;
 }
-/* line 589, ../sass/styles.sass */
+/* line 588, ../sass/styles.sass */
 .links a.link.link_facebook {
   background-image: url("../img/icon_facebook.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 589, ../sass/styles.sass */
+  /* line 588, ../sass/styles.sass */
   .links a.link.link_facebook {
     background-image: url("../img/icon_facebook@2x.png");
   }
 }
-/* line 594, ../sass/styles.sass */
+/* line 593, ../sass/styles.sass */
 .links a.link.link_twitter {
   background-image: url("../img/icon_twitter.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 594, ../sass/styles.sass */
+  /* line 593, ../sass/styles.sass */
   .links a.link.link_twitter {
     background-image: url("../img/icon_twitter@2x.png");
   }
 }
-/* line 599, ../sass/styles.sass */
+/* line 598, ../sass/styles.sass */
 .links a.link.link_instagram {
   background-image: url("../img/icon_instagram.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  /* line 599, ../sass/styles.sass */
+  /* line 598, ../sass/styles.sass */
   .links a.link.link_instagram {
     background-image: url("../img/icon_instagram@2x.png");
   }
 }
 
-/* line 605, ../sass/styles.sass */
+/* line 604, ../sass/styles.sass */
 #apps a {
   opacity: 1;
   cursor: pointer;
 }
-/* line 608, ../sass/styles.sass */
+/* line 607, ../sass/styles.sass */
 #apps a:hover {
   opacity: 0.6;
   cursor: pointer;
 }
 
-/* line 613, ../sass/styles.sass */
+/* line 612, ../sass/styles.sass */
 a span.logoicon {
   opacity: 1;
   cursor: pointer;
 }
-/* line 616, ../sass/styles.sass */
+/* line 615, ../sass/styles.sass */
 a span.logoicon:hover {
   opacity: 0.6;
   cursor: pointer;
@@ -9025,109 +9024,109 @@ a span.logoicon:hover {
 
 /* Responsive */
 @media screen and (min-width: 0px) {
-  /* line 623, ../sass/styles.sass */
+  /* line 622, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "~319px";
   }
 }
 @media screen and (min-width: 320px) {
-  /* line 627, ../sass/styles.sass */
+  /* line 626, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone5";
   }
 }
 @media screen and (min-width: 360px) {
-  /* line 631, ../sass/styles.sass */
+  /* line 630, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "Nexus5";
   }
 }
 @media screen and (min-width: 375px) {
-  /* line 635, ../sass/styles.sass */
+  /* line 634, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone6";
   }
 }
 @media screen and (min-width: 414px) {
-  /* line 639, ../sass/styles.sass */
+  /* line 638, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone6+";
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 643, ../sass/styles.sass */
+  /* line 642, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone4.L";
   }
 }
 @media screen and (min-width: 568px) {
-  /* line 647, ../sass/styles.sass */
+  /* line 646, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone5.L";
   }
 }
 @media screen and (min-width: 640px) {
-  /* line 651, ../sass/styles.sass */
+  /* line 650, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "Nexus5.L";
   }
 }
 @media screen and (min-width: 667px) {
-  /* line 655, ../sass/styles.sass */
+  /* line 654, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone6.L";
   }
 }
 @media screen and (min-width: 736px) {
-  /* line 659, ../sass/styles.sass */
+  /* line 658, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPhone6+.L";
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 663, ../sass/styles.sass */
+  /* line 662, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPad";
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 667, ../sass/styles.sass */
+  /* line 666, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "960px+";
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 671, ../sass/styles.sass */
+  /* line 670, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "iPad.L";
   }
 }
 @media screen and (min-width: 1280px) {
-  /* line 675, ../sass/styles.sass */
+  /* line 674, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "13inch";
   }
 }
 @media screen and (min-width: 1440px) {
-  /* line 679, ../sass/styles.sass */
+  /* line 678, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "15inch";
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 683, ../sass/styles.sass */
+  /* line 682, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "17inch";
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 687, ../sass/styles.sass */
+  /* line 686, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "24inch";
   }
 }
 @media screen and (min-width: 2560px) {
-  /* line 691, ../sass/styles.sass */
+  /* line 690, ../sass/styles.sass */
   #responsive_status .container:after {
     content: "27inch";
   }
