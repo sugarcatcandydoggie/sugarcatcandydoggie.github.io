@@ -13,6 +13,7 @@ $color-gurumi: #1babb2
 $color-gurumi-btn: $color-gurumi + #111111
 $color-darkgray: #666666
 $color-white-dimmed: #f4f4f4
+$color-gray: #eeeeee
 
 // @include transition(all, 0.3s, ease)
 @mixin transition($property, $duration, $timing)
@@ -83,11 +84,27 @@ body
   @media screen and (min-width: 767px)
     font-family:  $font-heading
 
+.img_wide
+  position: relative
+  margin: 0
+  width: 100%
+  height: auto
+  &.bottom_area
+    margin-bottom: 20px
+    @media screen and (min-width: 767px)
+      margin-bottom: 40px
+
+
+
 .container
   position: relative
   .img
     width: 100%
     height: auto
+    &.bottom_area
+      margin-bottom: 20px
+      @media screen and (min-width: 767px)
+        margin-bottom: 40px
 
 #skip_top
   height: 0
@@ -105,7 +122,9 @@ body
   padding: 0
   opacity: 0
   position: absolute
-  top: -40px
+  top: -50px
+  @media screen and (min-width:768px)
+    top: -60px
 
 .logo
   position: absolute
@@ -132,21 +151,43 @@ body
   bottom: 36%
   z-index: 1
 
+.content_wrapper
+  margin-top: 30px
+  @media screen and (min-width:768px)
+    margin-top: 40px
+
+.content_header
+  width: 100%
+  z-index: 1
+  border-bottom: 1px solid $color-gray
+  background-color: $color-white
+  font-size: 18px
+  padding-top: 6px
+  padding-bottom: 8px
+  line-height: 1.4
+  text-align: left
+  font-weight: 400
+  @media screen and (min-width:480px)  
+    font-size: 16px
+  @media screen and (min-width:768px)
+    font-size: 22px
+
 .main_content
   width: 100%
   text-align: center
-  padding-top: 20px
+  margin-top: 30px
   @media screen and (min-width:768px)
-    padding-top: 40px
-  padding-bottom: 40px
+    margin-top: 40px
   &.border_bottom
     border-bottom: 1px solid #eeeeee
 
 .cover
+  margin-top: 52px
+  @media screen and (min-width:768px)
+    margin-top: 52px
   width: 100%
   height: 120px
   overflow: hidden
-  margin-top: 52px
   background-position: center
   background-image: url('../img/cover.jpg')
   background-size: cover
@@ -174,39 +215,63 @@ body
   @media screen and (min-width:2560px)
     height: 768px
 
-
 .main_title
   margin: 30px auto 0
   display: block
 
 .heading
-  font-size: 18px
+  font-size: 20px
   color: $color-darkgray
   font-weight: 400
-  margin-top: 10px
+  margin-top: 40px
   margin-bottom: 20px
+  line-height: 1.2
   @media screen and (min-width:480px)  
-    font-size: 30px
-    margin-top: 20px
+    font-size: 32px
+    margin-top: 55px
   @media screen and (min-width:768px)
-    font-size: 38px
-    margin-top: 40px
+    font-size: 40px
+    margin-top: 65px
   @media screen and (min-width:960px)
-    font-size: 42px
+    font-size: 48px
   a
     color: inherit !important
   a:hover
     color: $color-gurumi + #111111
+  &.top_area
+    margin-top: 40px
+    @media screen and (min-width:960px)
+      margin-top: 80px  
+  &.bottom_zero
+    margin-bottom: 0px
+  &.large
+    font-size: 30px
+    @media screen and (min-width:480px)  
+      font-size: 40px
+    @media screen and (min-width:768px)
+      font-size: 48px
+    @media screen and (min-width:960px)
+      font-size: 60px
 
 .main_img_wrapper
   margin: 20px 0
   @media screen and (min-width:768px)
     margin: 40px 0
 
+
+
 .order_content
   width: 100%
   background-color: $color-white-dimmed
   margin-bottom: 40px
+
+.order_content_bg
+  width: 100%
+  background-image: url('../img/order/order_bg.jpg')
+  @media screen and (min-width:768px)
+    background-image: url('../img/order/order_bg_wide.jpg')
+
+
 
 /* Inline Logo Icon */
 .logoicon
@@ -234,6 +299,15 @@ body
     font-size: 16px
   @media screen and (min-width:960px)
     font-size: 18px
+  &.large
+    font-size: 18px
+    @media screen and (min-width:480px)  
+      font-size: 20px
+    @media screen and (min-width:768px)
+      font-size: 22px
+    @media screen and (min-width:960px)
+      font-size: 24px
+
 
 .sticker_wrapper
   max-width: 480px
@@ -327,7 +401,8 @@ body
 
 .btn_wrapper
   margin-bottom: 30px
-  margin: 20px auto
+  @media screen and (min-width:768px)
+    margin-bottom: 60px
 .btn
   width: 240px
   border-radius: 6px
@@ -338,14 +413,12 @@ body
   border: none
   padding: 12px 10px
   position: relative
+  line-height: 1.4
   background-color: $color-gurumi-btn
   @media screen and (min-width:480px)  
     font-size: 23px
   @media screen and (min-width:768px)
     font-size: 28px
-
-    color: white
-    background-color: $color-gurumi-btn
   &:hover, &:focus
     color: white
     background-color: $color-gurumi-btn + #111111
@@ -371,9 +444,27 @@ body
     &:hover
       background-color: #324f8c
 
+  &.btn_small
+    font-size: 14px
+    z-index: 9999
+    padding: 4px 10px
+    width: auto
+    border-radius: 3px
+    margin-bottom: 4px
+    @media screen and (min-width:768px)
+      font-size: 16px
+      padding: 6px 15px
+      margin-bottom: 6px
+
+
+
+
+
 .text_btn_wrapper
   text-align: center
-  margin-bottom: 20px
+  margin-bottom: 5px
+  @media screen and (min-width:768px)
+    margin-bottom: 15px
 .text_btn
   font-size: 20px
   color: $color-gurumi
@@ -401,7 +492,9 @@ body
   font-weight: 400
   line-height: 30px
   padding: 0
-  margin: 30px auto 30px
+  margin: 5px auto 5px
+  @media screen and (min-width:768px)
+    margin: 15px auto 15px
   z-index: 9999
   -webkit-transition: all 0.2s
   transition: all 0.2s
@@ -597,3 +690,4 @@ a span.logoicon
 @media screen and (min-width:2560px)
   #responsive_status .container:after
     content: "27inch"
+
