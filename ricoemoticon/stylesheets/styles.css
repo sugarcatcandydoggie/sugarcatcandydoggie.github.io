@@ -8176,13 +8176,13 @@ body {
 /* line 109, ../sass/styles.sass */
 .container .img.img_logo {
   margin-top: 100px;
-  max-width: 300px;
+  max-width: 250px;
 }
 @media screen and (min-width: 414px) {
   /* line 109, ../sass/styles.sass */
   .container .img.img_logo {
     margin-top: 100px;
-    max-width: 350px;
+    max-width: 300px;
   }
 }
 @media screen and (min-width: 480px) {
