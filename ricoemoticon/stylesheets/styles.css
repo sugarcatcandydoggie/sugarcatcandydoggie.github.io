@@ -8618,7 +8618,7 @@ body {
 
 /* line 347, ../sass/styles.sass */
 .sticker_wrapper {
-  max-width: 480px;
+  max-width: 680px;
   margin: 20px auto;
 }
 /* line 350, ../sass/styles.sass */
@@ -8933,7 +8933,7 @@ body {
   text-align: center;
   color: #aaaaaa;
   text-shadow: 0px 1px white;
-  font-weight: 100;
+  font-weight: 200;
   line-height: 10px;
   padding: 0;
   margin: 5px auto 5px;
