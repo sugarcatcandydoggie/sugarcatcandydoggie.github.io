@@ -8468,7 +8468,7 @@ body {
     margin-top: 0px;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 600px) {
   /* line 254, ../sass/styles.sass */
   .cover_bg {
     background-image: url("../img/cover_bg.jpg");
