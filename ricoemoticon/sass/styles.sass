@@ -107,37 +107,37 @@ body
       @media screen and (min-width: 767px)
         margin-bottom: 40px
     &.img_logo
-      margin-top: 110px
+      margin-top: 80px
       max-width: 250px
       @media screen and (min-width:414px)
-        margin-top: 110px
+        margin-top: 80px
         max-width: 300px
       @media screen and (min-width:480px)
-        margin-top: 150px
+        margin-top: 80px
         max-width: 350px
       @media screen and (min-width:768px)
-        margin-top: 160px
+        margin-top: 80px
         max-width: 350px
       @media screen and (min-width:960px)
-        margin-top: 160px
+        margin-top: 100px
         max-width: 400px
       @media screen and (min-width:1024px)
-        margin-top: 160px
+        margin-top: 100px
         max-width: 450px
       @media screen and (min-width:1200px)
-        margin-top: 160px
+        margin-top: 100px
         max-width: 450px
       @media screen and (min-width:1440px)
-        margin-top: 180px
+        margin-top: 100px
         max-width: 450px
       @media screen and (min-width:1680px)
-        margin-top: 180px
+        margin-top: 100px
         max-width: 450px
       @media screen and (min-width:1920px)
-        margin-top: 200px
-        max-width: 500px
+        margin-top: 100px
+        max-width: 450px
       @media screen and (min-width:2560px)
-        max-width: 500px
+        max-width: 450px
 
 #skip_top
   height: 0
@@ -263,14 +263,14 @@ body
   @include transition(height, 0.3s, ease)
   @media screen and (min-width:414px)
   @media screen and (min-width:600px)
-    background-image: url('../img/cover_bg.jpg')
+    background-image: url('../img/cover_bg_wide.jpg')
   @media screen and (min-width:768px)
   @media screen and (min-width:960px)
   @media screen and (min-width:1024px)
+    background-image: url('../img/cover_bg_wide2.jpg')
   @media screen and (min-width:1200px)
   @media screen and (min-width:1440px)
   @media screen and (min-width:1680px)
-    background-image: url('../img/cover_bg_wide.jpg')
   @media screen and (min-width:1920px)
   @media screen and (min-width:2560px)
 
@@ -383,16 +383,21 @@ body
 
 .main_desc
   font-size: 14px
-  color: #ffc2d3
+  color: #ffcadb
   font-weight: 300
   max-width: 300px
   margin: 8px auto 20px
   line-height: 1.6
+  @media screen and (min-width:480px)  
+    font-size: 16px
+    margin: 8px auto 32px
   @media screen and (min-width:768px)
     font-size: 16px
     max-width: 600px
+    margin: 8px auto 40px
   @media screen and (min-width:960px)
     font-size: 18px
+    margin: 8px auto 50px
   &.large
     font-size: 15px
     @media screen and (min-width:480px)  
@@ -405,7 +410,10 @@ body
 
 .sticker_wrapper
   max-width: 680px
-  margin: 20px auto
+  margin: 20px auto 10px
+  @media screen and (min-width:960px)
+    margin: 50px auto 20px
+
   .sticker_box
     border-radius: 6px
     width: 90%
@@ -494,33 +502,34 @@ body
       
 
 .btn_wrapper
-  margin-bottom: 36px
+  text-align: center
+  margin-bottom: 20px
   @media screen and (min-width:768px)
-    margin-bottom: 40px
+    margin-bottom: 30px
   @media screen and (min-width:1920px)
-    margin-bottom: 70px
+    margin-bottom: 50px
 .btn
   width: 240px
   border-radius: 3px
   font-size: 16px
   font-weight: 500
-  color: $color-rico
+  color: $color-white
   margin: 4px auto
   border: none
   padding: 12px 5px
   position: relative
   line-height: 1.4
-  background-color: $color-white
+  background-color: $color-rico
   @media screen and (min-width:480px)  
     font-size: 18px
   @media screen and (min-width:768px)
     font-size: 22px
   &:hover, &:focus
-    color: $color-rico
-    background-color: #ffc2d3
+    color: $color-white
+    background-color: $color-rico + #111111
   &:active
-    color: $color-rico
-    background-color: #ffc2d3 - #111111
+    color: $color-white
+    background-color: $color-rico
 
   &.line, &.line:visited
     background-color: #61cf43
@@ -567,15 +576,15 @@ body
     color: $color-rico + #111111
 
 .btn_header_info
-  margin-top: 26px
+  margin-top: 10px
   margin-bottom: 8px
-  color: $color-white
+  color: #999999
   font-weight: 400
   font-size: 14px
   @media screen and (min-width:768px)
     font-size: 16px
   @media screen and (min-width:960px)
-    font-size: 20px
+    font-size: 16px
 
 
 
