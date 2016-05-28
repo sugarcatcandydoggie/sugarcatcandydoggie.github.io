@@ -239,7 +239,7 @@ body
   font-size: 20px
   color: $color-darkgray
   font-weight: 400
-  margin-top: 40px
+  margin-top: 42px
   margin-bottom: 20px
   line-height: 1.2
   @media screen and (min-width:480px)  
@@ -250,6 +250,11 @@ body
     margin-top: 65px
   @media screen and (min-width:960px)
     font-size: 48px
+    margin-top: 75px
+  @media screen and (min-width:1680px)
+    margin-top: 80px
+
+
   a
     color: inherit !important
   a:hover
@@ -350,6 +355,8 @@ body
       font-size: 26px 
   &.darkgray
     color: $color-darkgray
+  &.no_bottom
+    margin-bottom: 0px
 
 .main_detail
   margin: 16px auto 20px
@@ -370,7 +377,7 @@ body
 
 .order_img_detail
   width: 100%
-  height: 400px
+  height: 350px
   overflow: hidden
   background-position: center
   background-image: url('../img/order/order_detail_m.jpg')
