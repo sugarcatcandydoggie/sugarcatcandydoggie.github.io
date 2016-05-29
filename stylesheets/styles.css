@@ -8400,7 +8400,7 @@ body {
 
 /* line 238, ../sass/styles.sass */
 .heading {
-  font-size: 20px;
+  font-size: 18px;
   color: #666666;
   font-weight: 400;
   margin-top: 42px;
@@ -8410,21 +8410,21 @@ body {
 @media screen and (min-width: 480px) {
   /* line 238, ../sass/styles.sass */
   .heading {
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 55px;
   }
 }
 @media screen and (min-width: 768px) {
   /* line 238, ../sass/styles.sass */
   .heading {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 65px;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 238, ../sass/styles.sass */
   .heading {
-    font-size: 48px;
+    font-size: 45px;
     margin-top: 75px;
   }
 }
