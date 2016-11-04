@@ -44,11 +44,16 @@
     var lang = language.substr(0,2).toLowerCase()
     jQuery(document).ready(function($){ $('body').addClass(lang); });
     jQuery(document).ready(function($){
-
-      $(".lang").addClass("hidden");
-      $("."+lang).removeClass("hidden");
+      if ($('body').hasClass('ko')) {
+        $(".lang").addClass("hidden");
+          return $("."+lang).removeClass("hidden");
+      }
+      else if ($('body').hasClass('ja')) {
+        $(".lang").addClass("hidden");
+          return $("."+lang).removeClass("hidden");
+      }
     });
-
+    
   // Smooth Scrolling
     $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -77,12 +82,8 @@
       <a class="nav_logo" href="../index.html">Sugar Cat &amp; Candy Doggie</a>
     </div>
     <div class="pull-right">
-      <a href="../index.html#artworks">
-        <span class="lang en">Artworks</span>
-        <span class="lang ja hidden">Artworks</span>
-        <span class="lang ko hidden">Artworks</span>
-      </a>
       <a href="../index.html#shop">Shop</a>
+      <a href="../index.html#artworks">Artworks</a>
       <a href="#skip_top">Order Portrait</a>
     </div>
     <div class="cb"></div>

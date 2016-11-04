@@ -44,9 +44,14 @@
     var lang = language.substr(0,2).toLowerCase()
     jQuery(document).ready(function($){ $('body').addClass(lang); });
     jQuery(document).ready(function($){
-
-      $(".lang").addClass("hidden");
-      $("."+lang).removeClass("hidden");
+      if ($('body').hasClass('ko')) {
+        $(".lang").addClass("hidden");
+          return $("."+lang).removeClass("hidden");
+      }
+      else if ($('body').hasClass('ja')) {
+        $(".lang").addClass("hidden");
+          return $("."+lang).removeClass("hidden");
+      }
     });
 
   // Smooth Scrolling
@@ -65,6 +70,30 @@
       });
     });
   </script>
+
+  <!-- FlaxSlider (Index) -->
+    <link rel="stylesheet" type="text/css" href="static/css/flexslider.css">
+    <script type="text/javascript" src="static/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(window).load(function() {
+      $('#featured').flexslider();
+      $('#coinone_featured').flexslider({animation: "slide",animationLoop: false,slideshow: false});
+      $('#bitcoin_featured').flexslider({animation: "slide",animationLoop: false,slideshow: false});
+      $('#people_featured').flexslider({animation: "slide",animationLoop: false,slideshow: false});
+      });
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-52584728-5', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
+    </script>
+
 </head>
 <body>
 
@@ -75,12 +104,8 @@
       <a class="nav_logo" href="#skip_top">Sugar Cat &amp; Candy Doggie</a>
     </div>
     <div class="pull-right">
-      <a href="#artworks">
-        <span class="lang en">Artworks</span>
-        <span class="lang ja hidden">Artworks</span>
-        <span class="lang ko hidden">Artworks</span>
-      </a>
       <a href="#shop">Shop</a>
+      <a href="#artworks">Artworks</a>
       <a href="order/index.html">Order Portrait</a>
     </div>
     <div class="cb"></div>
@@ -88,10 +113,86 @@
   <div class="content_wrapper">
     <div class="cover"></div>
 
+    <div class="container">
+      <div id="shop" class="nav_link_position"></div>
+      <div class="main_content border_bottom">
+
+        <h1 class="heading large">
+          <span class="lang en">Sugar Cat &amp; Candy Doggie's Art Goods</span>
+          <span class="lang ja hidden">Sugar Cat &amp; Candy Doggie's Art Goods</span>
+          <span class="lang ko hidden">아트 상품을 만나보세요.</span>
+        </h1>
+
+        <p class="main_desc">
+          <span class="lang en">Meet Sugar Cat &amp; Candy Doggie's Art &amp; Design Goods. Some of profits will be delivered to the owner of the pet. In case of stray cats and wild animals, some of profits will be donated to: NGO KARA Animal Rights Association.</span>
+          <span class="lang ja hidden">Meet Sugar Cat &amp; Candy Doggie's Art &amp; Design Goods. Some of profits will be delivered to the owner of the pet. In case of stray cats and wild animals, some of profits will be donated to: NGO KARA Animal Rights Association.</span>
+          <span class="lang ko hidden">슈가캣 &amp; 캔디도기 작품들로 다양한 아트상품과 디자인 상품을 판매합니다. 상품 수익금의 일부는 해당 모델인 반려동물의 주인에게 전해집니다. 길고양이나 유기견 그리고 야생동물이 모델인 경우, 동물보호시민단체 카라(KARA)에 기부됩니다.</span>
+        </p>
+
+        <!-- 
+        <div class="main_img_wrapper">
+          <img src="img/shop_sample.jpg" class="img" alt="Sugarcat shop">
+        </div>
+        -->
+
+        <!--slides -->
+        
+          <div id="featured" class="flexslider photo">
+            <ul class="slides">
+                <li><img src="img/shop_sample1.jpg" alt="Shop on Sugarcat">
+                  <p class="caption lang en">Meet Sugar Cat's New Goods!</p>
+                  <p class="caption lang ja hidden">Meet Sugar Cat's New Goods!</a></p>
+                  <p class="caption lang ko hidden">오프더갤러리 아티스트 샵</p>
+                </li>
+
+                <li><img src="img/shop_sample2.jpg" alt="Shop on Sugarcat">
+                  <p class="caption lang en">Sugar Cat Shop on RedBubble</p>
+                  <p class="caption lang ja hidden">Sugar Cat Shop on RedBubble</p>
+                  <p class="caption lang ko hidden">RedBubble 아티스트 샵 (해외배송 가능)</p>
+                </li>
+
+                <li><img src="img/shop_sample3.jpg" alt="Shop on Sugarcat">
+                  <p class="caption lang en">Wall Art Shop on Curioos</p>
+                  <p class="caption lang ja hidden">Wall Art Shop on Curioos</p>
+                  <p class="caption lang ko hidden">Curioos 아트프린트 샵 (해외배송 가능)</p>
+                </li>
+                
+                <li><img src="img/shop_sample4.jpg" alt="Shop on Sugarcat">
+                  <p class="caption lang en">Persnal Accesssories Shop on Holenga</p>
+                  <p class="caption lang ja hidden">Persnal Accesssories Shop on Holenga</p>
+                  <p class="caption lang ko hidden">Holenga 퍼스널 악세사리 샵 (해외배송 가능)</p>
+                </li>
+            </ul>
+          </div>
+
+        <br><br>
+
+        <!--shop btn -->
+          <div class="btn_wrapper">
+            <!--<p class="btn_header_info">
+              <span class="lang en">Now Available</span>
+              <span class="lang ja hidden">Now Available</span>
+              <span class="lang ko hidden">지금 만나보세요!</span>
+            </p>--><br>
+            <div class="lang en"><a class="btn" href="https://www.redbubble.com/people/sugarcat/shop" target="_blank">
+            Go to Shop</a></div>
+            <div class="lang ja hidden"><a class="btn" href="https://www.redbubble.com/people/sugarcat/shop" target="_blank">
+            Go to Shop</a></div>
+            <div class="lang ko hidden"><a class="btn" href="http://offthegallery.net/%EC%8A%88%EA%B0%80%EC%BA%A3%EC%BA%94%EB%94%94%EB%8F%84%EA%B8%B0/" target="_blank">
+            샵 바로가기</a></div>
+
+            <br>
+            <span class="main_info lang ko hidden"><b>오프더갤러리</b> 아티스트 샵으로 연결됩니다.<br>다른 샵을 찾으시나요?&nbsp;&nbsp;&nbsp;<a class="text_btn_small" href="https://www.redbubble.com/people/sugarcat/shop" target="_blank">RedBubble</a>,&nbsp;&nbsp;<a class="text_btn_small" href="https://www.curioos.com/sugarcat" target="_blank">Curioos</a>,&nbsp;&nbsp;<a class="text_btn_small" href="http://www.holenga.com/sugarcat-candydoggie-s-korea" target="_blank">Holenga</a></span>
+
+            <span class="main_info lang en">Sugar Cat Shop on <b>RedBubble</b>. Otherwise,&nbsp;&nbsp;<a class="text_btn_small" href="https://www.curioos.com/sugarcat" target="_blank">Curioos</a>,&nbsp;&nbsp;<a class="text_btn_small" href="http://www.holenga.com/sugarcat-candydoggie-s-korea" target="_blank">Holenga</a></span>
+          </div>
+
+      </div>
+    </div>
 
     <div class="container">
       <div id="artworks" class="nav_link_position"></div>
-      <div class="main_content border_bottom">
+      <div class="main_content">
 
         <h1 class="heading large">
           <span class="lang en">Animal Companion Artworks</span>
@@ -123,39 +224,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div id="shop" class="nav_link_position"></div>
-      <div class="main_content">
 
-        <h1 class="heading large">
-          <span class="lang en">Sugar Cat &amp; Candy Doggie's Art Goods</span>
-          <span class="lang ja hidden">Sugar Cat &amp; Candy Doggie's Art Goods</span>
-          <span class="lang ko hidden">아트 상품을 만나보세요.</span>
-        </h1>
-
-        <p class="main_desc">
-          <span class="lang en">Meet Sugar Cat &amp; Candy Doggie's Art &amp; Design Goods. Some of profits will be delivered to the owner of the pet. In case of stray cats and wild animals, some of profits will be donated to: NGO KARA Animal Rights Association.</span>
-          <span class="lang ja hidden">Meet Sugar Cat &amp; Candy Doggie's Art &amp; Design Goods. Some of profits will be delivered to the owner of the pet. In case of stray cats and wild animals, some of profits will be donated to: NGO KARA Animal Rights Association.</span>
-          <span class="lang ko hidden">슈가캣 &amp; 캔디도기 작품들로 다양한 아트상품과 디자인 상품을 판매합니다. 상품 수익금의 일부는 해당 모델인 반려동물의 주인에게 전해집니다. 길고양이나 유기견 그리고 야생동물이 모델인 경우, 동물보호시민단체 카라(KARA)에 기부됩니다.</span>
-        </p>
-        <div class="main_img_wrapper">
-          <img src="img/shop_sample.jpg" class="img" alt="Sugarcat shop">
-        </div>
-
-        <div class="btn_wrapper">
-          <p class="btn_header_info">
-            <span class="lang en">Sugar Cat &amp; Candy Doggie's Goods in Curioos</span>
-            <span class="lang ja hidden">Sugar Cat &amp; Candy Doggie's Goods in Curioos</span>
-            <span class="lang ko hidden">Curioos에서 판매중입니다.</span>
-          </p>
-          <a class="btn" href="https://www.curioos.com/sugarcat" target="_blank">
-            <span class="lang en">Go to shop</span>
-            <span class="lang ja hidden">Go to shop</span>
-            <span class="lang ko hidden">샵 바로가기</span>
-          </a>
-        </div>
-      </div>
-    </div>
   </div>
   <div class="order_content">
     <div class="container">
@@ -178,7 +247,7 @@
         </div>
         <div class="btn_wrapper">
           <p class="btn_header_info">
-            <span class="lang en">Now available</span>
+            <span class="lang en">Now Available</span>
             <span class="lang ja hidden">Now available</span>
             <span class="lang ko hidden">지금 주문하세요!</span>
           </p>
