@@ -9083,13 +9083,13 @@ body {
 @media screen and (min-width: 768px) {
   /* line 618, ../sass/styles.sass */
   .text_btn_small {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media screen and (min-width: 960px) {
   /* line 618, ../sass/styles.sass */
   .text_btn_small {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 /* line 626, ../sass/styles.sass */
