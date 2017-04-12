@@ -8488,7 +8488,7 @@ body {
   margin-top: 30px;
   color: #666666;
   z-index: 1;
-  border-bottom: 1px solid #889b9c;
+  border-bottom: 1px solid #999;
   font-size: 14px;
   padding-top: 10px;
   padding-bottom: 8px;
@@ -9089,7 +9089,7 @@ body {
 }
 /* line 594, ../sass/styles.sass */
 .nav a {
-  color: #1babb2;
+  color: #000;
   margin-left: 8px;
 }
 @media screen and (min-width: 768px) {
@@ -9100,7 +9100,7 @@ body {
 }
 /* line 599, ../sass/styles.sass */
 .nav a:hover {
-  color: #3dcdd4;
+  color: #111111;
 }
 /* line 601, ../sass/styles.sass */
 .nav a.nav_logo {
