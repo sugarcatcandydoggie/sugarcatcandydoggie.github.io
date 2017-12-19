@@ -8664,7 +8664,7 @@ body {
 }
 /* line 362, ../sass/styles.sass */
 .heading a:hover {
-  color: #2cbcc3;
+  color: #c83a3c;
 }
 /* line 364, ../sass/styles.sass */
 .heading.top_area {
@@ -9171,7 +9171,7 @@ body {
   padding: 12px 10px;
   position: relative;
   line-height: 1.4;
-  background-color: #2cbcc3;
+  background-color: #c83a3c;
 }
 @media screen and (min-width: 480px) {
   /* line 637, ../sass/styles.sass */
@@ -9188,12 +9188,12 @@ body {
 /* line 653, ../sass/styles.sass */
 .btn:hover, .btn:focus {
   color: white;
-  background-color: #3dcdd4;
+  background-color: #d94b4d;
 }
 /* line 656, ../sass/styles.sass */
 .btn:active {
   color: white;
-  background-color: #1babb2;
+  background-color: #b7292b;
 }
 /* line 660, ../sass/styles.sass */
 .btn.line, .btn.line:visited {
@@ -9270,17 +9270,17 @@ body {
 /* line 707, ../sass/styles.sass */
 .text_btn {
   font-size: 20px;
-  color: #1babb2;
+  color: #b7292b;
 }
 /* line 710, ../sass/styles.sass */
 .text_btn:hover {
-  color: #2cbcc3;
+  color: #c83a3c;
 }
 
 /* line 713, ../sass/styles.sass */
 .text_btn_small {
   font-size: 14px;
-  color: #1babb2;
+  color: #b7292b;
   font-weight: 500;
 }
 @media screen and (min-width: 768px) {
@@ -9297,7 +9297,7 @@ body {
 }
 /* line 721, ../sass/styles.sass */
 .text_btn_small:hover {
-  color: #2cbcc3;
+  color: #c83a3c;
 }
 /* line 723, ../sass/styles.sass */
 .text_btn_small.yellow {
