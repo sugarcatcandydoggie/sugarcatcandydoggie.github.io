@@ -8286,7 +8286,7 @@ body {
 /* line 172, ../sass/styles.sass */
 .logo {
   position: absolute;
-  background-image: url("../img/sticker_thumb_ani_gray.gif");
+  background-image: url("../../img/sticker_thumb_ani_gray.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 96px 74px;
@@ -8298,7 +8298,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 172, ../sass/styles.sass */
   .logo {
-    background-image: url("../img/sticker_thumb_ani_gray@2x.gif");
+    background-image: url("../../img/sticker_thumb_ani_gray@2x.gif");
   }
 }
 
@@ -8610,7 +8610,7 @@ body {
 /* Inline Logo Icon */
 /* line 345, ../sass/styles.sass */
 .logoicon {
-  background-image: url("../img/logoicon.png");
+  background-image: url("../../img/logoicon.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1.2em;
@@ -8624,7 +8624,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 345, ../sass/styles.sass */
   .logoicon {
-    background-image: url("../img/logoicon@2x.png");
+    background-image: url("../../img/logoicon@2x.png");
   }
 }
 
@@ -8962,7 +8962,7 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/nav_logo.png");
+  background-image: url("../../img/nav_logo.png");
   padding-left: 64px;
   padding-top: 38px;
   background-size: 64px 19px;
@@ -8970,7 +8970,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 532, ../sass/styles.sass */
   .nav a.nav_logo {
-    background-image: url("../img/nav_logo@2x.png");
+    background-image: url("../../img/nav_logo@2x.png");
   }
 }
 /* line 551, ../sass/styles.sass */
@@ -9321,17 +9321,17 @@ body {
 }
 /* line 776, ../sass/styles.sass */
 .links a.link.link_facebook {
-  background-image: url("../img/icon_facebook.png");
+  background-image: url("../../img/icon_facebook.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 776, ../sass/styles.sass */
   .links a.link.link_facebook {
-    background-image: url("../img/icon_facebook@2x.png");
+    background-image: url("../../img/icon_facebook@2x.png");
   }
 }
 /* line 781, ../sass/styles.sass */
 .links a.link.link_twitter {
-  background-image: url("../img/icon_twitter.png");
+  background-image: url("../../img/icon_twitter.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 781, ../sass/styles.sass */
@@ -9341,12 +9341,12 @@ body {
 }
 /* line 786, ../sass/styles.sass */
 .links a.link.link_instagram {
-  background-image: url("../img/icon_instagram.png");
+  background-image: url("../../img/icon_instagram.png");
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 786, ../sass/styles.sass */
   .links a.link.link_instagram {
-    background-image: url("../img/icon_instagram@2x.png");
+    background-image: url("../../img/icon_instagram@2x.png");
   }
 }
 
