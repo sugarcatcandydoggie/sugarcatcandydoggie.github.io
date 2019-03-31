@@ -9336,7 +9336,7 @@ body {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   /* line 781, ../sass/styles.sass */
   .links a.link.link_twitter {
-    background-image: url("..//img/icon_twitter@2x.png");
+    background-image: url("../../img/icon_twitter@2x.png");
   }
 }
 /* line 786, ../sass/styles.sass */
