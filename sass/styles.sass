@@ -9,7 +9,7 @@ $font-heading-mobile: "Avenir Next", "Helvetica Neue", "Helvetica", "Apple SD Go
 $font-heading: "Avenir Next", "Helvetica Neue", "Helvetica", "Apple SD Gothic Neo", "Noto Sans CJK KR", "Nanum Gothic", "맑은 고딕", "NotoSansKR webfont", "Arial", "돋움", "Dotum", sans-serif
 
 $color-white: #FFFFFF
-$color-gurumi: #1babb2 
+$color-gurumi: #3d3d3d 
 $color-gurumi-btn: $color-gurumi + #111111
 $color-darkgray: #666666
 $color-white-dimmed: #f4f4f4
@@ -218,7 +218,7 @@ body
 
 .container_bg
   position: relative
-  background-color: #baeaec
+  background-color: #ebebeb
   .img
     width: 100%
     height: auto
@@ -574,6 +574,37 @@ body
   @media screen and (min-width:2560px)
     height: 768px
 
+
+.order_img_goods
+  width: 100%
+  height: 350px
+  overflow: hidden
+  background-position: center
+  background-image: url('../img/order/order_goods_m.jpg')
+  background-size: cover
+  @include transition(height, 0.3s, ease)
+  @media screen and (min-width:414px)
+    height: 400px
+  @media screen and (min-width:480px)
+    height: 450px
+    background-image: url('../img/order/order_goods.jpg')
+  @media screen and (min-width:768px)
+    height: 500px
+    background-image: url('../img/order/order_goods_wide.jpg')
+  @media screen and (min-width:960px)
+    height: 580px
+  @media screen and (min-width:1024px)
+    height: 620px
+  @media screen and (min-width:1200px)
+    height: 640px
+  @media screen and (min-width:1440px)
+    height: 680px
+  @media screen and (min-width:1680px)
+    height: 720px
+  @media screen and (min-width:1920px)
+    height: 740px
+  @media screen and (min-width:2560px)
+    height: 768px
 
 
 .sticker_wrapper

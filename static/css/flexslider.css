@@ -83,9 +83,9 @@ html[xmlns] .slides {display: block;}
 /* Control Nav */
 .flex-control-nav {width: 100%; position: absolute; bottom: -30px; text-align: center; z-index: 999}
 .flex-control-nav li {margin: 0 10px; display: inline-block; zoom: 1; *display: inline;}
-.flex-control-paging li a {width: 10px; height: 10px; display: block; background: #1babb2; background: #dddddd; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.05); -moz-box-shadow: 0 0 3px rgba(0,0,0,0.05); -o-box-shadow: 0 0 3px rgba(0,0,0,0.05); box-shadow: 0 0 3px rgba(0,0,0,0.05); }
-.flex-control-paging li a:hover { background: #eeeeee; background: #009ba2; }
-.flex-control-paging li a.flex-active { background: #1babb2; cursor: default; }
+.flex-control-paging li a {width: 10px; height: 10px; display: block; background: #515151; background: #dddddd; cursor: pointer; text-indent: -9999px; -webkit-border-radius: 20px; -moz-border-radius: 20px; -o-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 0 0 3px rgba(0,0,0,0.05); -moz-box-shadow: 0 0 3px rgba(0,0,0,0.05); -o-box-shadow: 0 0 3px rgba(0,0,0,0.05); box-shadow: 0 0 3px rgba(0,0,0,0.05); }
+.flex-control-paging li a:hover { background: #eeeeee; background: #adadad; }
+.flex-control-paging li a.flex-active { background: #5e5e5e; cursor: default; }
 
 .flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
 .flex-control-thumbs li {width: 25%; float: left; margin: 0;}
