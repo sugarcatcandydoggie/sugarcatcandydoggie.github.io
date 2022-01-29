@@ -8639,13 +8639,13 @@ body {
 @media screen and (min-width: 480px) {
   /* line 341, ../sass/styles.sass */
   .cover {
-    height: 580px;
+    height: 680px;
   }
 }
 @media screen and (min-width: 640px) {
   /* line 341, ../sass/styles.sass */
   .cover {
-    height: 780px;
+    height: 850px;
   }
 }
 @media screen and (min-width: 768px) {
